@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> position practice</title>
+</head>
+<body style="height:3000px;
+ padding-top: 60px;
+ padding-left: 80px;">
+
+    <div style="
+    background-color:black;
+    color:white;
+    position: fixed;  /* position fixed sets the element fixed on the window*/
+    height: 30px; 
+    top: 0;
+    left: 0;
+    right: 0;
+ 
+    z-index: 1;
+    ">header</div>
+
+    <div style="
+    background-color:green;
+    color:white;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    width: 72px;
+    ">
+            <div style="
+            position:absolute;  /* absolute position sets the element fixed on the page*/
+            background-color:red;
+            color:white;
+            top: 0;
+            right: 0;"
+            
+            >X</div>
+    side bar
+    </div>
+
+    <div style="
+    position:absolute;  /* absolute position sets the element fixed on the page*/
+    background-color:red;
+    color:white;
+   
+    top: 60px;
+    right: 60px;"
+    
+    >absolute</div>
+
+    <div  style="
+    background-color:aquamarine;
+    height: 200px;
+    width: 200px;
+    position: static;
+    
+    
+    "> div 1</div>
+
+    <div style="
+    background-color:bisque;
+    height:200px ;
+    width: 200px;
+    position: relative;"
+    
+    >
+            <div style="
+            position:absolute;  /* absolute position sets the element fixed on the page*/
+            background-color:black;
+            color:white;
+        
+            bottom: 10px;
+            right: 10px;"
+            
+            >10:43</div>
+
+    div 2</div>
+
+</body>
+</html>
